@@ -1,6 +1,6 @@
 #!/bin/bash
 user=newstatusralph
-token=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
+token=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
 repo=github-restful-api
 curl --request POST \
     --url 'https://api.github.com/repos/'$user'/'$repo'/dispatches' \
