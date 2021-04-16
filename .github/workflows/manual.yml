@@ -1,0 +1,14 @@
+
+name: restfull api
+
+on:
+  repository_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run a one-line script
+        run: | 
+          echo "restfull api"
+          echo "${{github.event.client_payload.message.foo}}"
