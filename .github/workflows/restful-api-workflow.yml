@@ -12,3 +12,4 @@ jobs:
         run: | 
           echo "restfull api"
           echo "${{github.event.client_payload.message.foo}}"
+
