@@ -1,5 +1,5 @@
 #!/bin/bash
-read -p "Password?" -s passwd
+read -p "Password? " -s passwd
 encrypt=$(cat << EOF
 U2FsdGVkX19VmpFg04ptbHzRDrpLqCb7rxH4dG28vohGT4bpnUMcdCjmYn+5oOWY
 hfH6w1RhzRLOTYdftVrgcg==
